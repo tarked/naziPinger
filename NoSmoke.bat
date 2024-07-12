@@ -48,14 +48,6 @@ echo                                                             .:l:'. 'OWMMWd:
 echo                                                              .;dKXc,okx,.;k0NXx'                                           
 echo                          
 echo 
-eecho 88                    88  
-echo  88                    88  
-echo  88                    88  
-echo  88 ,adPPYba,  ,adPPYb,88  
-echo  88 I8[    "" a8"    `Y88  
-echo  88  `"Y8ba,  8b       88  MAP
-echo  88 aa    ]8I "8a,   ,d88  
-echo  88 `"YbbdP"'  `"8bbdP"Y8 
 set /p Ip=
 PING -n 1 %IP% | FIND "TTL="
 IF ERRORLEVEL 1 (SET in=0b & echo downed)
